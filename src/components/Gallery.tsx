@@ -36,7 +36,7 @@ export default function Gallery() {
 
   return (
     <section className="py-32 bg-deep-navy" id="gallery">
-      <div className="max-w-container-max mx-auto px-margin-desktop">
+      <div className="max-w-container-max mx-auto px-4 md:px-16">
         <div className="text-center mb-20">
           <span className="font-label-caps text-label-caps text-rich-gold tracking-[0.4em] uppercase mb-4 block">
             Our Work

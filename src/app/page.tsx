@@ -32,9 +32,8 @@ export default function Home() {
       {/* Footer */}
       <Footer />
 
-      {/* FAB for quick contact */}
-      <div className="fixed bottom-10 right-10 z-50 flex flex-col gap-4 group">
-        <div className="absolute right-16 top-1/2 -translate-y-1/2 bg-parchment text-deep-navy text-xs px-3 py-2 rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap font-label-caps tracking-widest font-bold border border-rich-gold/20 pointer-events-none">
+      <div className="fixed bottom-6 right-6 md:bottom-10 md:right-10 z-50 flex flex-col gap-4 group">
+        <div className="absolute right-16 top-1/2 -translate-y-1/2 bg-parchment text-deep-navy text-xs px-3 py-2 rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity hidden md:block whitespace-nowrap font-label-caps tracking-widest font-bold border border-rich-gold/20 pointer-events-none">
           CHAT WITH US
         </div>
         <a

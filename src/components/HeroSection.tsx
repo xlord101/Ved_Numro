@@ -1,18 +1,18 @@
 export default function HeroSection() {
   return (
-    <section className="relative min-h-[921px] flex items-center bg-deep-navy overflow-hidden">
-      <div className="relative z-10 max-w-container-max mx-auto px-margin-desktop grid grid-cols-1 md:grid-cols-2 gap-gutter items-center">
-        <div className="space-y-8">
+    <section className="relative min-h-screen md:min-h-[921px] flex items-center bg-deep-navy overflow-hidden py-16 md:py-0">
+      <div className="relative z-10 max-w-container-max mx-auto px-4 md:px-16 grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-gutter items-center">
+        <div className="space-y-8 text-left">
           <div className="inline-block border border-rich-gold/50 px-4 py-1">
-            <span className="font-label-caps text-label-caps text-rich-gold tracking-widest uppercase">
+            <span className="font-label-caps text-[10px] md:text-label-caps text-rich-gold tracking-widest uppercase">
               Swapna Powar • Vastu & Numerology Expert
             </span>
           </div>
-          <h1 className="font-headline-xl text-headline-xl text-parchment leading-tight">
+          <h1 className="font-headline-xl text-headline-lg-mobile md:text-headline-xl text-parchment leading-tight">
             Harmonize Your Space, <br />
             <span className="text-rich-gold italic">Empower Your Destiny.</span>
           </h1>
-          <p className="font-body-lg text-body-lg text-parchment/80 max-w-lg">
+          <p className="font-body-lg text-body-md md:text-body-lg text-parchment/80 max-w-lg">
             Consult with <strong>Swapna Powar</strong> to discover the ancient wisdom of Vastu Shastra and Numerology tailored for modern lifestyles. Align your environment with the cosmos.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
@@ -27,16 +27,16 @@ export default function HeroSection() {
             </a>
           </div>
         </div>
-        <div className="hidden md:block relative">
-          <div className="relative z-20 rounded-none border border-rich-gold/20 p-4">
+        <div className="block mt-8 md:mt-0 relative w-full max-w-lg mx-auto md:max-w-none">
+          <div className="relative z-20 rounded-none border border-rich-gold/20 p-3 md:p-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               alt="Vastu Compliant Home"
-              className="w-full h-[500px] object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-700"
+              className="w-full h-[300px] md:h-[500px] object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-700"
               src="/gallery/2.webp"
             />
-            {/* Floating Badge */}
-            <div className="absolute -bottom-10 -left-10 bg-parchment p-8 border border-rich-gold/30 shadow-xl max-w-[200px]">
+            {/* Floating Badge - hidden on mobile to prevent overflow */}
+            <div className="hidden sm:block absolute -bottom-10 -left-10 bg-parchment p-8 border border-rich-gold/30 shadow-xl max-w-[200px]">
               <p className="font-headline-sm text-headline-sm text-deep-navy leading-none">
                 21k+
               </p>
@@ -45,9 +45,9 @@ export default function HeroSection() {
               </p>
             </div>
           </div>
-          {/* Decorative Gold Lines */}
-          <div className="absolute -top-10 -right-10 w-40 h-40 border-t border-r border-rich-gold/30"></div>
-          <div className="absolute -bottom-10 -left-10 w-40 h-40 border-b border-l border-rich-gold/30 -z-10"></div>
+          {/* Decorative Gold Lines - hidden on mobile */}
+          <div className="hidden md:block absolute -top-10 -right-10 w-40 h-40 border-t border-r border-rich-gold/30"></div>
+          <div className="hidden md:block absolute -bottom-10 -left-10 w-40 h-40 border-b border-l border-rich-gold/30 -z-10"></div>
         </div>
       </div>
     </section>

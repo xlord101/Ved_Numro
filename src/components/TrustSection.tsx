@@ -1,7 +1,7 @@
 export default function TrustSection() {
   return (
     <section className="py-24 bg-parchment border-b border-rich-gold/10">
-      <div className="max-w-container-max mx-auto px-margin-desktop text-center">
+      <div className="max-w-container-max mx-auto px-4 md:px-16 text-center">
         <p className="font-label-caps text-label-caps text-rich-gold mb-12 tracking-widest uppercase">
           OFFICIAL AUTHORIZED PARTNER
         </p>

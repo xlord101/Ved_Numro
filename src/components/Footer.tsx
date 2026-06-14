@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="bg-deep-navy text-parchment pt-24 pb-12 border-t border-rich-gold/20">
-      <div className="max-w-container-max mx-auto px-margin-desktop grid grid-cols-1 md:grid-cols-4 gap-gutter mb-20">
+      <div className="max-w-container-max mx-auto px-4 md:px-16 grid grid-cols-1 md:grid-cols-4 gap-gutter mb-20">
         <div className="md:col-span-1">
           <span className="font-headline-sm text-headline-sm text-rich-gold block mb-2">
             VED NUMRO VASTU
@@ -155,7 +155,7 @@ export default function Footer() {
           </p>
         </div>
       </div>
-      <div className="max-w-container-max mx-auto px-margin-desktop pt-8 border-t border-rich-gold/10 flex flex-col md:flex-row justify-between items-center gap-4">
+      <div className="max-w-container-max mx-auto px-4 md:px-16 pt-8 border-t border-rich-gold/10 flex flex-col md:flex-row justify-between items-center gap-4">
         <p className="font-body-sm text-body-sm text-outline-variant">
           © 2024 VED NUMRO VASTU. All rights reserved. Spiritual Wisdom for Modern
           Living.
