@@ -18,13 +18,13 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "VED NUMRO VASTU | Expert Vastu & Numerology Consultancy",
+  title: "RUGVED VASTU | Expert Vastu & Numerology Consultancy",
   description: "Premium Vastu, Numerology, and Astrology consultancy with 21+ years of experience. Official Jiten Pyramid partners.",
   openGraph: {
-    title: "VED NUMRO VASTU | Expert Vastu & Numerology Consultancy",
+    title: "RUGVED VASTU | Expert Vastu & Numerology Consultancy",
     description: "Premium Vastu, Numerology, and Astrology consultancy with 21+ years of experience. Official Jiten Pyramid partners.",
     url: "https://aurelian-veda.com", // Placeholder
-    siteName: "VED NUMRO VASTU",
+    siteName: "RUGVED VASTU",
     locale: "en_IN",
     type: "website",
   },
@@ -46,7 +46,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              "name": "VED NUMRO VASTU",
+              "name": "RUGVED VASTU",
               "image": "",
               "telephone": "+91 0000000000",
               "address": {

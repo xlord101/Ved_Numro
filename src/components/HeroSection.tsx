@@ -16,7 +16,7 @@ export default function HeroSection() {
             Consult with <strong>Swapna Powar</strong> to discover the ancient wisdom of Vastu Shastra and Numerology tailored for modern lifestyles. Align your environment with the cosmos.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <a href="https://wa.me/917507525557?text=Hello%20Ved%20Numro%20Vastu%2C%20I%20would%20like%20to%20get%20an%20analysis." target="_blank" rel="noopener noreferrer" className="bg-rich-gold text-deep-navy font-button-text text-button-text px-10 py-4 hover:shadow-[0_0_20px_rgba(197,160,89,0.4)] transition-all flex items-center justify-center gap-2">
+            <a href="https://wa.me/917507525557?text=Hello%20Rugved%20Vastu%2C%20I%20would%20like%20to%20get%20an%20analysis." target="_blank" rel="noopener noreferrer" className="bg-rich-gold text-deep-navy font-button-text text-button-text px-10 py-4 hover:shadow-[0_0_20px_rgba(197,160,89,0.4)] transition-all flex items-center justify-center gap-2">
               Get Your Analysis
               <span className="material-symbols-outlined text-lg">
                 arrow_forward

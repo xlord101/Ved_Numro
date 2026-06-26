@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-container-max mx-auto px-4 md:px-16 grid grid-cols-1 md:grid-cols-4 gap-gutter mb-20">
         <div className="md:col-span-1">
           <span className="font-headline-sm text-headline-sm text-rich-gold block mb-2">
-            VED NUMRO VASTU
+            RUGVED VASTU
           </span>
           <span className="font-label-caps text-[11px] text-parchment/80 block mb-6 tracking-widest">
             BY SWAPNA POWAR
@@ -157,7 +157,7 @@ export default function Footer() {
       </div>
       <div className="max-w-container-max mx-auto px-4 md:px-16 pt-8 border-t border-rich-gold/10 flex flex-col md:flex-row justify-between items-center gap-4">
         <p className="font-body-sm text-body-sm text-outline-variant">
-          © 2024 VED NUMRO VASTU. All rights reserved. Spiritual Wisdom for Modern
+          © 2024 RUGVED VASTU. All rights reserved. Spiritual Wisdom for Modern
           Living.
         </p>
         <p className="font-label-caps text-[10px] text-rich-gold/60">

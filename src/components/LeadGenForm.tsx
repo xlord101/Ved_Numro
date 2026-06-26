@@ -10,7 +10,7 @@ export default function LeadGenForm() {
     const phone = formData.get("phone") || "";
     const space = formData.get("space") || "";
     
-    const text = `Hello Ved Numro Vastu!%0A%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Service:* ${space}%0A%0AI would like to schedule an audit.`;
+    const text = `Hello Rugved Vastu!%0A%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Service:* ${space}%0A%0AI would like to schedule an audit.`;
     window.open(`https://wa.me/917507525557?text=${text}`, "_blank");
   };
 

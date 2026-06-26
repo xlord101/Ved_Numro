@@ -103,7 +103,7 @@ export default function Testimonials() {
               </span>
             </div>
             <p className="font-body-md text-charcoal italic mb-8">
-              &quot;Ved Numro Vastu helped us with name numerology for our new
+              &quot;Rugved Vastu helped us with name numerology for our new
               lifestyle brand. The resonance it created with our target audience
               has been phenomenal. Truly experts in their craft.&quot;
             </p>

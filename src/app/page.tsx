@@ -38,7 +38,7 @@ export default function Home() {
         </div>
         <a
           className="w-14 h-14 bg-rich-gold text-deep-navy rounded-full shadow-2xl flex items-center justify-center hover:scale-110 transition-transform cursor-pointer"
-          href="https://wa.me/917507525557?text=Hello%20Ved%20Numro%20Vastu%2C%20I%20would%20like%20to%20consult."
+          href="https://wa.me/917507525557?text=Hello%20Rugved%20Vastu%2C%20I%20would%20like%20to%20consult."
           target="_blank"
           rel="noopener noreferrer"
         >

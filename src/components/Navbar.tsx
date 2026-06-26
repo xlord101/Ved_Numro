@@ -13,7 +13,7 @@ export default function Navbar() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/logo.webp" alt="Logo" className="h-10 w-auto object-contain mix-blend-multiply" />
           <span className="font-headline-md text-headline-md tracking-tighter text-deep-navy">
-            VED NUMRO VASTU
+            RUGVED VASTU
           </span>
         </div>
         
@@ -48,7 +48,7 @@ export default function Navbar() {
         {/* Desktop CTA Button */}
         <div className="hidden md:block">
           <a 
-            href="https://wa.me/917507525557?text=Hello%20Ved%20Numro%20Vastu%2C%20I%20would%20like%20to%20consult." 
+            href="https://wa.me/917507525557?text=Hello%20Rugved%20Vastu%2C%20I%20would%20like%20to%20consult." 
             target="_blank" 
             rel="noopener noreferrer" 
             className="bg-rich-gold text-deep-navy font-button-text text-button-text px-8 py-3 rounded-none hover:bg-muted-gold transition-all cursor-pointer active:opacity-70"
@@ -102,7 +102,7 @@ export default function Navbar() {
               Testimonials
             </Link>
             <a 
-              href="https://wa.me/917507525557?text=Hello%20Ved%20Numro%20Vastu%2C%20I%20would%20like%20to%20consult." 
+              href="https://wa.me/917507525557?text=Hello%20Rugved%20Vastu%2C%20I%20would%20like%20to%20consult." 
               target="_blank" 
               rel="noopener noreferrer" 
               className="bg-rich-gold text-deep-navy font-button-text text-button-text py-4 text-center rounded-none hover:bg-muted-gold transition-all cursor-pointer mt-2"
